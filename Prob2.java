@@ -7,6 +7,9 @@
  // By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.terms.
 // PROBLEM DESCR
 
+// command to solve mentioned problem ::: java Prob2 4000000
+
+
 public class Prob2 {
 
   public static void main (String args[]) {
@@ -24,6 +27,7 @@ public class Prob2 {
       if (next % 2 == 0) {
         sum += next;
       }
+
       int new_num = prev + next;
       prev = next;
       next = new_num;

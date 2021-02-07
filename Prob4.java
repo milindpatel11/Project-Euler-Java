@@ -18,17 +18,13 @@ public class Prob4 {
     String reverse = "";
 
     for (int i = chars.length - 1 ; i >=0 ; i-- ) reverse += chars[i];
-
-    // System.out.println ("reverse of " + regular + " is " + reverse);
-
     return (regular.equals(reverse));
+
   }
 
 
   public static void main (String args[]) {
 
-    // int input = Integer.parseInt(args[0]);
-    // System.out.println(isPalindrome(input));
 
     int max_peli = 0;
 
